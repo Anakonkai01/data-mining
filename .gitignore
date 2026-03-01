@@ -1,0 +1,30 @@
+data/ 
+*.json
+*.csv
+*.log
+*.tmp
+*.bak
+
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+# Ignore virtual environment directories
+venv/
+env/
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+# Ignore IDE specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore other files
+.claude/
+
